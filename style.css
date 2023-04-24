@@ -30,7 +30,7 @@
 .task-label, .task-input, .new-task-input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -117,7 +117,7 @@ li > input[type="checkbox"] {
   width: 226px;
 }
 .task-input {
-  width: 226px
+  width: 226px;
 }
 .delete img {
   height: 2em;
@@ -130,18 +130,18 @@ li > input[type="checkbox"] {
 
 /* Completed */
 #completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-input {
-  display: none
+  display: none;
 }
 
 .edit-mode .task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode label {
