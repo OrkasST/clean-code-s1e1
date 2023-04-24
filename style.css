@@ -27,7 +27,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-label, .task-input, .new-task-input {
+.task-label,
+.task-input,
+.new-task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -39,10 +41,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input, button{
+input,
+button{
   outline: none;
 }
 button {
@@ -68,7 +72,8 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
-.task-input, .new-task-input {
+.task-input,
+.new-task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,7 +85,8 @@ button:hover {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.task-input:focus, .new-task-input:focus {
+.task-input:focus,
+.new-task-input:focus {
   color: #333;
 }
 
